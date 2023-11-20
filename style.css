@@ -1,0 +1,101 @@
+body{
+    font-family: sans-serif;
+background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/1218583-cores-de-fundo-em-gradiente-gratis-vetor.jpg);
+color: #ffffff;
+margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+}
+
+
+.col{
+    float: left;
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.price-box{
+    background: #afa9a9;
+    color: #555;
+    list-style-type: none;
+    border: 1px solid #555;
+    margin: 0;
+    padding: 0;
+}
+
+.price-box .header.header-green{
+    background: #5e565b;
+}
+.price-box .header{
+    background: #bdbdbd;
+    color: #ffffff;
+    font: 25px;
+}
+
+.price-box li{
+    padding: 20px;
+    border-bottom: 20px solid #ffffff;
+    text-align: center;
+}
+
+.price-box li:hover{
+    background: #afafafaf;
+}
+
+.btn{
+background: #000000;
+border: none;
+color: #fff;
+text-align: center;
+text-decoration: none;
+font-size: 18px;
+padding: 10px 15px;
+}
+
+
+@media (max-width: 760px){
+    .col{
+        width:100% ;
+    }
+}
+
+.price-box .header.header-green:hover{
+    background: #ffffff;
+    color: #000000;
+}
+
+
+.price-box .header:hover{
+    background: #000000;
+    color: #dbd3d3;
+    border: 1px solid blue;
+}
+
+
+.price-box:hover{
+    background: #c4bfbf;
+   
+
+}
+
+.price-box li:hover{
+    background-color: #666666;
+    border: 1px solid #00c3ff;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.btn:hover{
+    color: #0000ff;
+    background: #ffffff;
+}
+
+h2:hover{
+    border: solid white;
+    border-radius: 10px;
+    color: #000000;
+    background-color: #ffe4e4;
+}
